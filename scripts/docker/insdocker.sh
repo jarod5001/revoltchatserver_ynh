@@ -6,6 +6,5 @@ sudo apt install docker-ce
 
 sudo usermod -aG docker admin
 
-mkdir -p /usr/local/lib/docker/cli-plugins
-curl -SL https://github.com/docker/compose/releases/download/v2.3.3/docker-compose-linux-x86_64 -o /usr/local/lib/docker/cli-plugins/docker-compose
-chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
+curl -SL https://github.com/docker/compose/releases/download/v2.3.3/docker-compose-linux-x86_64 -o  /usr/local/bin/docker-compose
+chmod +x  /usr/local/bin/docker-compose
