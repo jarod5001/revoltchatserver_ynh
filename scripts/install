@@ -164,7 +164,7 @@ chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
 
-bash docker compose.sh
+bash docker/compose.sh
 
 #=================================================
 # NGINX CONFIGURATION
