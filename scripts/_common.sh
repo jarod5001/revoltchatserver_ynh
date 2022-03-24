@@ -5,7 +5,7 @@
 #=================================================
 
 # dependencies used by the app
-pkg_dependencies="docker docker-compose"
+# pkg_dependencies="docker docker-compose"
 
 #=================================================
 # PERSONAL HELPERS
