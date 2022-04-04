@@ -112,7 +112,9 @@ ynh_script_progression --message="Installing dependencies..." --time --weight=1
 ###		- And the section "UPGRADE DEPENDENCIES" in the upgrade script
 
 # ynh_install_app_dependencies $pkg_dependencies
-bash docker/insdocker.sh
+
+# must make a check if docker compose is installed
+# bash docker/insdocker.sh
 
 #=================================================
 # CREATE DEDICATED USER
